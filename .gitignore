@@ -3,3 +3,4 @@ venv/
 *.json
 mental_health_posts.csv
 train.py
+*.csv
