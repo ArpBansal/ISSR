@@ -36,8 +36,31 @@ wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/mental_healt
 wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/mental_health_postswith_comments.csv
 wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/crisis_locations_extracted.csv
 wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/crisis_locations_geocoded.csv
+wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/crisis_terms_bert.csv
+
 ```
 
 These Files are the output work, although they can be reproduced by scripts proivded, it will be a time consuming process.
 
 **scripts/ folder contain the same code as script.ipynb file, Just divided into files or Cells and markdowns respectively.**
+
+Plot and *.csv files may not end up with same name as due provided in Repo
+
+### Plots
+*plots/ folder contain plots in .html*
+*plots_png/ folder contains same but in png - for better experience.*
+
+Personal advise: Go via plots_png - save time
+For more see Plots.md
+
+## Better Conclusion/inference from work Reading
+Rather than going via code.
+
+It's advisable to go through markdowns in **script.ipynb** to get grasp of the conclusion we can draw from this analysis.
+OR i was able to grasp from this analysis.
+
+And What things to be Aware of/take care of in Project Work.
+
+Don't forget to checkout Plots.md
+
+
