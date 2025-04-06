@@ -1,7 +1,7 @@
 ## Project Proposal ISSR Task work
 **AI-Powered Behavioural Analysis for Suicide Prevention, Substance Use, and Mental Health Crisis Detection with Longitudinal Geospatial Crisis Trend Analysis**
 
-This repo contains the completed work for tasks given by ISSR(under The university of Alabama) for GSOC-2025: [Task-Docs](https://docs.google.com/document/d/e/2PACX-1vQfC8gkrSx_ycYkIOdae5sJ-fuqn2UA9nLtGqA5egBuwNKMNZpi_NBR0MRnnqdWt8WYqznE6x9_DIO0/pub)
+This repo contains the completed work for tasks given by Humane AI ISSR(under The university of Alabama) for GSOC-2025: [Task-Docs](https://docs.google.com/document/d/e/2PACX-1vQfC8gkrSx_ycYkIOdae5sJ-fuqn2UA9nLtGqA5egBuwNKMNZpi_NBR0MRnnqdWt8WYqznE6x9_DIO0/pub)
 
 
 ### Setup
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 Due to GitHub **LFS** limit, files are removed from the repo,
 
-You can download them via:
+You can download all the files that were generated via:
 
 ```sh
 wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/mental_health_postsV1.csv
@@ -37,6 +37,16 @@ wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/mental_healt
 wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/crisis_locations_extracted.csv
 wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/crisis_locations_geocoded.csv
 wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/crisis_terms_bert.csv
+
+```
+
+Advised If you want to analyze, download only these output file:
+
+```sh
+wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/mental_health_postsV1_extracted_unbiased_locations.csv
+wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/crisis_terms_bert.csv
+wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/crisis_locations_geocoded.csv
+wget https://huggingface.co/datasets/Arpit-Bansal/ISSR/resolve/main/mental_health_postswith_comments.csv
 
 ```
 
