@@ -85,4 +85,5 @@ And What things to be Aware of/take care of in Project Work.
 
 Don't forget to checkout Plots.md
 
+Either Check markdowns in script.ipynb or REVIEW.md in scripts/ of each TASK
 
