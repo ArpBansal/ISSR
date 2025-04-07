@@ -3,6 +3,9 @@
 
 This repo contains the completed work for tasks given by Humane AI ISSR(under The university of Alabama) for GSOC-2025: [Task-Docs](https://docs.google.com/document/d/e/2PACX-1vQfC8gkrSx_ycYkIOdae5sJ-fuqn2UA9nLtGqA5egBuwNKMNZpi_NBR0MRnnqdWt8WYqznE6x9_DIO0/pub)
 
+**Python Version to use**
+- 3.11
+On 3.12 Window system is incompatible with few libs, which is weird cause it's not on Linux
 
 ### Setup
 ```sh
