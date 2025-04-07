@@ -9,7 +9,7 @@ import torch
 import pandas as pd
 
 # this is file that I saved, provided in repo also
-df = pd.read_csv('mental_health_postsV1.csv') # use the file saved via reddit extraction code
+df = pd.read_csv('mental_health_postsV1.csv') # use the file_name saved via reddit extraction code
 
 data = df.copy()
 

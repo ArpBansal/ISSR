@@ -24,6 +24,18 @@ venv\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 
+```
+In the main directory create .env file and define these variables
+
+- CLIENT_SECRET
+- CLIENT_ID
+
+you can get them for free via Reddit
+
+These are required only for reddit extraction code, rest scripts can run smoothly,
+Provided you have download the essential files.
+```
+
 Due to GitHub **LFS** limit, files are removed from the repo,
 
 You can download all the files that were generated via:
